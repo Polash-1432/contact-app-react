@@ -1,9 +1,9 @@
 import React from 'react';
 
-const Button = ({ text,image, handleChange ,onChange}) => {
+const Button = ({ btnName,image, handleChange ,onChange, className}) => {
   return (
-    <button onClick={handleChange} onChange={onChange}>
-      {image}{text}
+    <button onClick={handleChange} onChange={onChange} className={className}>
+      {image}{btnName}
     </button>
   );
 };

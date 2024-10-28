@@ -1,0 +1,88 @@
+.page_decoration{
+    background-color: #323334;
+    width: 393px;
+    height: 852px;
+    padding-top: 10px;
+    margin:50px auto;
+    border-radius: 7px;
+  }
+
+
+/* Centered form container styling */
+.input-page  {
+  width: 348px;
+  height: auto;
+  background-color: #ffffff;
+ text-align: center;
+  margin: 150px auto;
+}
+
+.support-btn {
+  display: flex;
+  justify-content: space-between; /* Pushes buttons to opposite sides */
+  align-items: center;            /* Vertically centers buttons */
+  width: auto;                    /* Full width of the container */
+  margin: 0 20px;                 /* Centers the container horizontally if needed */
+  padding: 1rem 0;                /* Optional: adds space around buttons */
+  /* gap: 1rem;                      Space between buttons (optional) */
+}
+
+.support-btn button {
+  padding: 5px;          /* Button padding */
+  font-size: 14px;               /* Font size */
+  border: none;                  /* Remove default border */
+  border-radius: 4px;            /* Rounded corners */
+  cursor: pointer;               /* Pointer cursor on hover */
+  /* background-color: Purple;    Background color */
+  color: #fff;                   /* Text color */
+}
+
+.btn-primary{
+  background-color:Purple;
+}
+
+.btn-secondary{
+  background-color: red;
+  opacity: 0.5;
+}
+
+/* .support-btn button:hover {
+  background-color: #0056b3;     
+} */
+
+
+
+.main-btn {
+  display: flex;
+  flex-direction: column;        /* Stack items vertically */
+  align-items: center;           /* Center buttons horizontally */
+  gap: 1rem;                     /* Adds space between the buttons */
+  width: 100%;                   /* Full width of the container */
+  max-width: 300px;              /* Optional: max width for button container */
+  margin: 0 auto;                /* Center container horizontally */
+  padding: 1rem 0;               /* Optional: space around the container */
+}
+
+.main-btn button {
+  width: 100%;                  /* Full width button */
+  padding: 0.75rem;             /* Button padding */
+  font-size: 1rem;              /* Font size */
+  border: none;                 /* Remove default border */
+  border-radius: 4px;           /* Rounded corners */
+  cursor: pointer;              /* Pointer cursor on hover */
+  /* background-color: #007bff;    */
+  color: #fff;                  /* Text color */
+}
+
+/* .main-btn button:hover {
+  background-color: #0056b3;    
+} */
+
+.main-btn-primary{
+background-color: #007bff;
+}
+
+.main-btn-secondary{
+    background-color: burlywood;
+}
+

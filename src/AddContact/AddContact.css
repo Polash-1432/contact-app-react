@@ -4,3 +4,24 @@
     height: 852px;
     margin:10px auto;
   }
+
+  .add-contact-page {
+    width: 348px;
+    height: 245px;
+    background-color: #ffffff;
+    text-align: right;
+    margin: auto;
+  }
+
+  .add-contact-btn{
+    margin-right: 20px;
+  }
+
+  .add-contact-btn button{
+    background-color:blue;
+    color: #ffffff;
+    border: none;
+    padding: 5px 8px;
+    margin-top: 5px;
+    border-radius: 5px;
+  }

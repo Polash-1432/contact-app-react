@@ -1,0 +1,27 @@
+.page_decoration {
+    background-color: #323334;
+    width: 393px;
+    height: 852px;
+    margin: 10px auto;
+}
+
+.create-account-input {
+    width: 348px;
+    height: auto;
+    background-color: #ffffff;
+    text-align: center;
+    margin: 100px auto;
+    padding: 10px;
+    border-radius: 5px;
+}
+
+.create-account-input button{
+    padding: 5px 50px;
+    background-color:aqua;
+    border-radius: 7px;
+}
+
+.main-btn-secondary{
+    background-color: burlywood !important;
+    padding: 0.75rem !important; 
+}
