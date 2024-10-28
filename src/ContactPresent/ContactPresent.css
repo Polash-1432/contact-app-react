@@ -1,0 +1,15 @@
+.page_decoration{
+  background-color: #323334;
+  width: 393px;
+  height: 852px;
+  margin:10px auto;
+}
+
+.card_page{
+  width: 360px;
+  height: 700px;
+  margin: auto;
+  overflow: auto;
+  scrollbar-width: none
+}
+

@@ -1,0 +1,57 @@
+.card_section   {
+    background-color: #FFEAAE;
+    width: 360px;
+    height: auto;
+    margin:10px auto;
+    border-radius: 10px;
+}
+
+.card_body{
+    display: flex;
+    /* justify-content: space-between; */
+    padding: 8px 4px;  
+    align-items: center; 
+}
+
+.text_section{
+    text-align: left;
+    line-height: 10px;
+    padding-bottom: 8px;
+    margin-left: 8px;
+    align-items: center !important;
+}
+
+.text_section p{
+    font-size: 16px;
+    font-weight: 500;
+   
+}
+
+.text_section span{
+    font-size: 14px;
+    font-weight: 400;
+   
+    
+}
+
+.image_contact{
+    size: 37px;
+    margin: 4px;
+}
+
+.image_icon{
+    display: flex;
+    gap: 8px;
+    display: flex;
+    margin-left: 80px;
+}
+
+.image_icon button{  
+    text-align: right;
+    align-items: end;  
+    float: right;
+    size: 32px;
+    margin: 8px 4px;
+    background-color: #FFEAAE;
+    border: none;
+}

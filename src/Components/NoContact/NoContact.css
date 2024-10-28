@@ -1,0 +1,20 @@
+
+.page_decoration{
+    background-color: #323334;
+    width: 393px;
+    height: 852px;
+    margin:10px auto;
+  }
+
+.hand_contact{
+    display: flex;
+    justify-content: center;
+    gap: 16px;
+    margin: 390px 57px;
+}
+
+.hand_contact p{
+    color: white;
+    font-size: 24px;
+    font-weight: 600;
+}

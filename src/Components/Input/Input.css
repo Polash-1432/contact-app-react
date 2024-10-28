@@ -1,0 +1,39 @@
+
+
+  .form_page{
+    width: 348px;
+    height: 244px;
+    background-color: #ffffff;
+   text-align: center;
+    margin: auto;
+  }
+
+
+
+  .input_form{
+    display: grid;
+    align-items: center;
+    gap: 8px;
+    margin: 00px 20px;
+    padding: 10px 00px;
+    font-size: 16px;
+    font-weight: 400;
+    text-align: left;
+    border-radius: 5px;
+    /* border: 1px solid red; */
+  }
+
+  input{
+    padding: 10px;
+  }
+
+  .form_page button{
+    font-size: 16px;
+    font-weight: 400;
+    margin-right: 20px;
+    float: right;
+    padding: 6px 12px;
+    border: 1px solid #FCCA3F;
+    border-radius: 5px;
+    background-color: #FCCA3F;
+  }
