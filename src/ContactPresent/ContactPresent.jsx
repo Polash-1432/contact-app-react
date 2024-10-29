@@ -1,4 +1,4 @@
-import React from 'react';
+import React, { useEffect, useState } from 'react';
 import { useNavigate } from 'react-router-dom';
 import './ContactPresent.css';
 import Card from '../Components/Card/Card';
@@ -7,16 +7,32 @@ import Navigation from '../Components/Navigation/Navigation';
 const ContactPresent = () => {
   const navigate = useNavigate();
 
-  const contacts = [
-    { id: 1, name: 'Polash', email: 'hello@polash.com' },
-    { id: 2, name: 'Polash2', email: 'hello@polash.com2' },
-    { id: 3, name: 'Polash3', email: 'hello@polash.com3' },
-    { id: 4, name: 'Polash4', email: 'hello@polash.com4' }
-  ];
+  // Use array destructuring with useState
+  const [contacts, setContacts] = useState([]); // Corrected syntax
+  const [loading, setLoading] = useState(true); // Corrected syntax
+
+  useEffect(() => {
+    const fetchData = async () => {
+      try {
+        const response = await fetch('https://jsonplaceholder.typicode.com/users');
+        const result = await response.json();
+        setContacts(result);
+      } catch (error) {
+        console.error("Error fetching data:", error);
+      } finally {
+        setLoading(false);
+      }
+    };
+    fetchData();
+  }, []);
 
   const handleUpdateContact = (contact) => {
     navigate('/update-contact', { state: { contact } });
   };
+
+  if (loading) {
+    return <p>Loading...</p>;
+  }
 
   return (
     <div className='page_decoration'>
@@ -27,7 +43,7 @@ const ContactPresent = () => {
             key={contact.id}
             name={contact.name} 
             email={contact.email} 
-            onClick={() => handleUpdateContact(contact)} // Pass as a function
+            onClick={() => handleUpdateContact(contact)} 
           />
         ))}
       </div>

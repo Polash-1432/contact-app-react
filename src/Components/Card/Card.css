@@ -8,7 +8,7 @@
 
 .card_body{
     display: flex;
-    /* justify-content: space-between; */
+    justify-content: space-between;
     padding: 8px 4px;  
     align-items: center; 
 }
@@ -18,7 +18,7 @@
     line-height: 10px;
     padding-bottom: 8px;
     margin-left: 8px;
-    align-items: center !important;
+    /* align-items: center !important; */
 }
 
 .text_section p{
@@ -39,14 +39,13 @@
     margin: 4px;
 }
 
-.image_icon{
+.btn_icon{
     display: flex;
     gap: 8px;
-    display: flex;
-    margin-left: 80px;
+    margin-left: auto;
 }
 
-.image_icon button{  
+.btn_icon button{  
     text-align: right;
     align-items: end;  
     float: right;

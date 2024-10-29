@@ -13,7 +13,7 @@ const Card = ({ name, email, onClick }) => {
           <p>{name}</p>
           <span>{email}</span>
         </div>
-        <div className='image_icon'>
+        <div className='btn_icon'>
           {/* Pass `onClick` to the edit button */}
           <Button 
             image={<img src="./image/edit.png" alt="Edit logo" />}
